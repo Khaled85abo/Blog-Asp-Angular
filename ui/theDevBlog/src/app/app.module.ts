@@ -9,13 +9,17 @@ import { AdminViewPostComponent } from './admin/admin-view-post/admin-view-post.
 import { FormsModule } from '@angular/forms';
 import { AdminAddPostComponent } from './admin/admin-add-post/admin-add-post.component';
 import { HeaderComponent } from './header/header.component';
+import { PostsComponent } from './posts/posts.component';
+import { PostComponent } from './post/post.component';
 @NgModule({
   declarations: [
     AppComponent,
     AdminPostsComponent,
     AdminViewPostComponent,
     AdminAddPostComponent,
-    HeaderComponent
+    HeaderComponent,
+    PostsComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
